@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-800 to-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+<header class="bg-black bg-opacity-70 backdrop-blur-md shadow-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-4">
+    <div class="flex items-center space-x-3 mb-2 md:mb-0">
+      <img src="logo.png" alt="Logo" class="h-20 w-20 object-contain" />
+    </div>
+    <nav class="flex gap-6 text-gray-300 text-lg">
+      <a href="#" class="hover:text-blue-400 transition">Accueil</a>
+      <a href="#sommaire" class="hover:text-blue-400 transition">Sommaire</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="relative h-screen flex flex-col justify-start items-center text-center px-4 pt-32 overflow-hidden">
+  <!-- Image de fond -->
+  <div class="absolute inset-0 bg-cover bg-center filter blur-sm" style="background-image: url('background.jpeg'); z-index: -1;"></div>
+
+<!-- Contenu -->
+<h1 class="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_4px_black]">
+  Présentation PortFolio
+</h1>
+<p class="mt-4 text-lg md:text-2xl text-white drop-shadow-[0_0_2px_black]">
+  Technicien Informatique Systèmes et Réseaux
+</p>
+</section>
+
+
+<!-- Présentation avec image à droite et texte bien réparti -->
+<section class="mt-12 px-6 py-12 w-full flex flex-col md:flex-row gap-8">
+  
+<!-- Bloc présentation amélioré -->
+<div class="w-full md:w-2/3 bg-gray-700 p-8 rounded-xl shadow-lg border border-gray-600">
+  <h2 class="text-4xl font-bold mb-6 text-blue-400 text-center md:text-left drop-shadow">
+    👨‍🎓 • Présentation
+  </h2>
+  <p class="text-gray-200 leading-relaxed text-xl md:text-2xl text-justify">
+    Je me présente, Clément, j’ai 19 ans, et je suis actuellement en alternance et au sein de la formation BTS SIO au Lycée Saint Marc à Nivolas-Vermelle,
+    En option SISR (Solutions d’Infrastructures, Systèmes et Réseaux).
+    J’ai choisi le domaine de l’informatique, ce qui m’a permis d’acquérir des compétences solides et concrètes.
+    C'est pour cela que je vous présente aujourd’hui mon portfolio, reflet de mon parcours et de mes expériences.
+  </p>
+</div>
+
+
+<!-- Bloc image avec image réduite -->
+<div class="w-full md:w-1/3 flex items-center justify-center">
+  <img src="icone.png" alt="Icone personnage" class="rounded-xl shadow-lg w-48 h-auto object-cover">
+</div>
+</section>
+
+<section class="bg-gray-900 py-12 relative overflow-hidden">
+  <div class="relative z-10 max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
+
+    <!-- Image à gauche, bien décalée -->
+    <div class="w-full md:w-1/4 flex justify-start -ml-24">
+      <div class="rounded-3xl overflow-hidden shadow-2xl max-w-xs">
+        <img src="formation.jpg" alt="Image gauche" class="object-cover w-full h-auto">
+      </div>
+    </div>
+
+    <!-- Bloc texte au centre -->
+    <div class="w-full md:w-2/4 flex justify-center text-center">
+      <div>
+        <h2 class="text-5xl font-extrabold text-white mb-10 drop-shadow-lg">Sommaire</h2>
+        <nav class="flex flex-col items-center space-y-6 text-blue-300 font-semibold">
+		
+		
+		
+          <a href="#presentation" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">🎓</span>• Présentation
+          </a>
+          <a href="#bts-sio" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">📚</span>• BTS SIO & Formation
+          </a>
+          <a href="#competences" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">💼</span>• Expérience professionnelle
+          </a>
+          <a href="#projets" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">🛠️</span>• Compétences Techniques
+          </a>
+          <a href="#experience" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">🚀</span>• Projets en cours
+          </a>
+          <a href="#contact" class="hover:text-blue-500 transition text-2xl flex items-center">
+            <span class="text-4xl font-bold mr-3 w-12 text-center">✉️</span>• Contact
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Image à droite -->
+    <div class="w-full md:w-1/4 flex justify-end">
+      <div class="rounded-3xl overflow-hidden shadow-2xl max-w-xs">
+        <img src="informatique.jpeg" alt="Image droite" class="object-cover w-full h-auto">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- BTS SIO & Formation -->
+<section class="px-6 py-12 bg-gray-800">
+  <!-- En-tête avec image à droite (agrandie) -->
+  <div class="max-w-5xl mx-auto flex items-center justify-center gap-4 mb-10">
+    <h2 class="text-3xl font-bold text-blue-300 text-center">📚 • BTS SIO & Formations</h2>
+    <img src="lycee.gif" alt="Illustration BTS SIO" class="h-20 w-20 object-contain" />
+  </div>
+
+  <!-- Grille de contenu à 2 colonnes -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto text-center">
+    <div class="bg-gray-700 p-4 rounded-xl border border-gray-600">
+      <h3 class="text-xl font-bold text-blue-200 mb-2 flex items-center justify-center gap-2">
+        <img src="validation.gif" alt="SISR" class="h-10 w-10 object-contain" />
+        | SISR
+      </h3>
+      <p class="text-gray-300 text-lg">
+        Le BTS SIO SISR (Solution d’Infrastructure Système et Réseau) est une option du BTS SIO qui vise à former des techniciens réseau polyvalents.
+        Cette formation professionnalisante, relativement récente (depuis 2011), est dédiée aux services informatiques aux organisations (SIO).
+        Les lauréats de ce programme ont toutes les compétences nécessaires pour la gestion et la maintenance du réseau d’une entreprise.
+      </p>
+    </div>
+
+    <div class="bg-gray-700 p-4 rounded-xl border border-gray-600">
+      <h3 class="text-xl font-bold text-blue-200 mb-2">SLAM</h3>
+      <p class="text-gray-300 text-lg">
+        Le BTS SIO SLAM (Solutions Logicielles et Application Métiers) est un parcours dédié aux passionnés du développement logiciel.
+        Il prépare les futurs experts des logiciels aux métiers relatifs à la conception et à la maintenance de programmes applicatifs.
+        Durant leurs deux années d’études, les étudiants apprennent à rédiger un cahier des charges, développer des applications et assurer leur intégration dans les systèmes informatisés de la société.
+        Le BTS SIO option SLAM signifie brevet de technicien supérieur en service informatique aux organisations.
+      </p>
+    </div>
+  </div>
+
+  <!-- Titre Formation -->
+  <h3 class="text-2xl font-bold text-blue-300 mt-12 mb-6 max-w-5xl mx-auto text-center">Formations</h3>
+  
+  <!-- Liste des formations -->
+  <ul class="list-disc list-inside max-w-5xl mx-auto text-gray-300 text-lg space-y-4 px-4 md:px-0">
+    <li>BTS SIO Option SISR au Lycée Saint Marc à Nivolas-Vermelle</li>
+    <li>BAC professionnelle SN (Systèmes Numériques) Option RISC (Réseaux Informatique et Système Communicants) au Lycée Saint Marc à Nivolas-Vermelle</li>
+    <!-- etc. -->
+  </ul>
+</section>
+
+
+
+
+
+
+
+<!-- Expérience professionnelle avec image de fond -->
+<section class="px-6 py-12 bg-gray-500 bg-cover bg-center bg-no-repeat relative" style="background-image: url('experience.jpg');">
+  <!-- Overlay sombre pour lisibilité -->
+  <div class="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
+
+  <div class="relative z-10">
+    <h2 class="text-3xl font-bold text-center mb-10 text-white">💼 • Expérience Professionnelle</h2>
+
+<!-- Carte principale centrée -->
+<div class="max-w-xl mx-auto mb-12">
+  <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md text-center">
+    <h3 class="text-xl font-semibold text-blue-700 mb-2">Technicien systèmes, réseaux - Insitution Sainte Claire d'Assise</h3>
+    <p class="text-gray-800">
+      📅 <strong>Septembre 2023 – Juillet 2025</strong><br>
+      📖 L'Institution Sainte Claire d'Assise est une jeune institution qui accueille 1900 élèves scolarisés à Bourgoin-Jallieu et L'Isle d'Abeau dans deux collèges,
+      Saint Joseph et Saint Michel et quatre écoles, Saint Joseph, Saint Michel, Notre Dame et Sainte Lucie.
+    </p>
+    <!-- Image ajoutée -->
+    <img src="entreprise.png" alt="Description de l'image" class="mt-8 mx-auto rounded-md shadow-md w-full max-w-sm object-cover" />
+  </div>
+</div>
+
+
+  <!-- 6 autres expériences en grille -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+
+    <!-- Case 1 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">LB Info</h3>
+      <p class="text-gray-800">📅 février 2021<br>📝 Technicien de maintenance informatique, pour les ordinateurs et gestion de sites web.</p>
+    </div>
+
+    <!-- Case 2 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">SEROO Informatique</h3>
+      <p class="text-gray-800">📅 avril 2021<br>📝 Technicien de maintenance informatique, pour ordinateurs reconditionnés.</p>
+    </div>
+
+    <!-- Case 3 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">Communauté de commune des Vals du Dauphiné</h3>
+      <p class="text-gray-800">📅 mars 2022<br>📝 Technicien au service informatique.</p>
+    </div>
+
+    <!-- Case 4 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">Numerik's</h3>
+      <p class="text-gray-800">📅 novembre 2022<br>📝 Technicien de maintenance informatique, pour ordinateurs et téléphones.</p>
+    </div>
+
+    <!-- Case 5 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">XEFI</h3>
+      <p class="text-gray-800">📅 janvier 2023<br>📝 Technicien informatique, systèmes pour les professionnels.</p>
+    </div>
+
+    <!-- Case 6 -->
+    <div class="bg-white p-6 rounded-xl border border-gray-300 shadow-md">
+      <h3 class="text-lg font-semibold text-blue-700 mb-2">Transacom</h3>
+      <p class="text-gray-800">📅 septembre 2023<br>📝 Accès internet pour les professionnels.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Compétences Techniques (version plus sobre) -->
+<section class="px-6 py-12 bg-[#1f2937]">
+  <h2 class="text-3xl font-bold text-center mb-10 text-white drop-shadow">💻 • Mes Compétences Techniques</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto text-center">
+
+    <!-- Exemple de carte compétence -->
+    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Routage Statique, Dynamique | Protocoles</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Connaissance des protocoles TCP/IP, OSPF, VLAN, Trunk, et configuration de routeurs Cisco, RIP V2, HSRP.
+      </div>
+    </div>
+
+    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Linux / Windows Server</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Gestion de serveurs Linux (Debian, Ubuntu) et Windows Server (Active Directory, GPO, DNS, DHCP).
+      </div>
+    </div>
+
+    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Virtualisation</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Expérience avec VMware, VirtualBox et Hyper-V pour créer et gérer des environnements virtuels | ProxMox.
+      </div>
+    </div>
+
+    <!-- Tu peux continuer à dupliquer ce modèle pour les autres compétences -->
+    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">VLSM</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Permet de subdiviser un réseau en sous-réseaux de tailles différentes, optimisant l'utilisation des adresses IP.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">PARE-FEU</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Règles de filtrage et de NAT, bloquage URL. Pare-Feu StormShield.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">PROXY</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Installation d'un serveur proxy, sur une VM Linux avec SQUID.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Profil publique</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Création d'un profil professionnel, pour permettre en valeurs nos compétences, et de manière à simplifier des candidatures et la recherche pour les employeurs.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Gestion de projet</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Savoir organiser ses plans, afin de pouvoir avancer en toute tranquilliter sans avoir du retard sur de projets.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Logiciels de simulation</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Savoir utiliser des logiciels de simulation, pour shématiser et réaliser des futurs projets.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">VPN</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Réalisation d'un VPN entre deux Pare-Feu.
+      </div>
+    </div>
+	    <div class="bg-[#374151] p-4 rounded-xl border border-gray-600 text-white shadow flex flex-col h-full">
+      <p class="font-semibold">Analyse des trames</p>
+      <button onclick="toggleDetails(this)" class="mt-4 text-sm text-blue-400 hover:text-blue-200 transition">Détails</button>
+      <div class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out text-sm text-gray-300 mt-2">
+        Permet d’analyser les mécanismes qui façonnent les comportements et les systèmes de valeurs.
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleDetails(button) {
+    const content = button.nextElementSibling;
+    const isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
+
+    if (isOpen) {
+      content.style.maxHeight = "0px";
+      button.textContent = "Détails";
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      button.textContent = "Masquer";
+    }
+  }
+</script>
+
+
+
+
+
+<!-- Projets récents (style harmonisé et plus sobre) -->
+<section class="px-6 py-12 bg-[#1f2937]"> <!-- fond gris bleuté foncé -->
+  <h2 class="text-3xl font-bold text-center mb-10 text-white drop-shadow">🛠️ • Projets Récents</h2>
+  <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+
+    <div class="bg-[#374151] p-6 rounded-xl border border-gray-600 shadow text-white">
+      <h3 class="text-xl font-semibold text-blue-200">Solution de connectivité pour une entreprise</h3>
+      
+      <!-- Emplacement image -->
+      <div class="mt-4 mb-2">
+        <img src="windows.jpg" alt="Illustration du projet de connectivité" class="rounded-lg w-full h-auto object-cover">
+      </div>
+
+      <!-- Liste des tâches -->
+      <ul class="list-disc list-inside mt-2 text-sm text-gray-300 space-y-1">
+        <li>Serveur AD</li>
+        <li>Contrôleur de Domaine</li>
+        <li>Création d'utilisateurs</li>
+        <li>Installation de VM utilisateurs</li>
+		<li>Mise en place d'un Pare-feu</li>
+		<li>Serveur DNS</li>
+		<li>Serveur DHCP</li>
+		<li>VLAN</li>
+      </ul>
+
+      <p class="mt-4">Objectif : Créer une première solution d'infrastructure, pour une PME, afin de gérer les différents services.</p>
+    </div>
+
+    <div class="bg-[#374151] p-6 rounded-xl border border-gray-600 shadow text-white">
+      <h3 class="text-xl font-semibold text-blue-200">Configuration réseau pour une société</h3>
+
+      <!-- Emplacement image -->
+      <div class="mt-4 mb-2">
+        <img src="stormshield.jfif" alt="Illustration de la configuration réseau" class="rounded-lg w-full h-auto object-cover">
+      </div>
+
+      <!-- Liste des tâches -->
+      <ul class="list-disc list-inside mt-2 text-sm text-gray-300 space-y-1">
+        <li>VLAN</li>
+        <li>Pare-feu</li>
+        <li>VM utilisateurs</li>
+        <li>Serveur WEB</li>
+      </ul>
+
+      <p class="mt-4">Objectif : Créer une configuration réseau sécurisé pour un TPE.</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- Poursuite d'études -->
+<section class="px-6 py-12 bg-[#111827]"> <!-- fond plus foncé pour contraste -->
+  <h2 class="text-3xl font-bold text-center mb-10 text-white drop-shadow">🎓 • Poursuite d'Études</h2>
+  <div class="max-w-4xl mx-auto text-gray-300 text-lg leading-relaxed space-y-6">
+
+    <p>Actuellement diplômé d’un <strong>BTS SIO (Services Informatiques aux Organisations)</strong>, j’ai choisi de poursuivre mes études afin d’approfondir mes compétences techniques et stratégiques dans le domaine de l’informatique.</p>
+
+    <p>J'ai postulé dans une école à la <strong>MFR de Saint Egreve</strong>, pour poursuire dans une <strong>Bachelor 3Ops en Système - Réseau - Cybersécurité</strong>.</p>
+
+    <p>Cette poursuite d’études me permet de développer une vision plus globale des enjeux IT, tout en renforçant mes connaissances pratiques par le biais de projets concrets et d'une alternance en entreprise.</p>
+	
+	<p>Deplus possiblité de réorientation professionnelle, pour un <strong>BPJEPS</strong>.</p>
+
+    <p class="text-sm text-gray-400">➡️ Objectif professionnel : devenir administrateur système & réseau, cybersécurité.</p>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 border-t border-gray-700 mt-16">
+  <div class="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-8 items-center">
+    
+    <!-- Colonne gauche : Logo + Infos -->
+    <div class="flex items-start space-x-5">
+      <!-- Emplacement image/logo -->
+      <img src="logo.png" alt="Logo" class="w-16 h-16 rounded-md object-contain">
+
+      <!-- Texte associé -->
+      <div>
+        <h4 class="text-white text-xl font-semibold mb-2">CLEMENT</h4>
+        <p class="text-sm">© 2025 Clement — Tous droits réservés.</p>
+        <p class="text-xs mt-1 text-gray-500">Conçu en HTML & Tailwind CSS</p>
+      </div>
+    </div>
+
+    <!-- Colonne droite : Liens / Réseaux -->
+    <div class="md:text-right space-y-2">
+      <p class="text-sm">Retrouvez-moi sur :</p>
+      <div class="flex md:justify-end space-x-4">
+        <a href="#" class="hover:text-white transition">LinkedIn</a>
+        <a href="#" class="hover:text-white transition">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
